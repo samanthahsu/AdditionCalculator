@@ -1,0 +1,24 @@
+{
+  "name": "AdditionCalculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/samanthahsu/AdditionCalculator.git",
+  "author": "samanthahsu",
+  "license": "MIT",
+  "dependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/chai": "^4.2.21",
+    "@types/chai-as-promised": "^7.1.4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.9.1",
+    "@ubccpsc310/folder-test": "^1.0.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.1.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register --timeout 10000 test/**/*.spec.ts"
+  }
+}
